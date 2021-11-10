@@ -16,10 +16,3 @@ jobs:
       run: make docker-build
     - name: Run tests
       run: make docker-runtest-all
-    - name: Download a Build Artifact
-      uses: actions/download-artifact@v2.0.10
-      with:
-        # Artifact name
-        name: # optional
-        # Destination path
-        path: # optional
